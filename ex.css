@@ -1,0 +1,34 @@
+body{
+    background-color: hsl(20, 62%, 53%);
+}
+h1{
+    font-size: 50px;text-align: center;font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{color:rgb(203, 203, 203);background-color: rgb(35, 180, 131);font-size: 24px;}
+.p1{color: red;}
+.font{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+#p1{
+    color: green;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-top: 200px;
+    box-shadow: 10px 10px 15px 20px rgb(140, 135, 135);
+}
+
+.p2{
+    /* border: 10px solid green; */
+/* border: 10px dotted red; */
+/* border:10px dashed yellow; */
+/* border: 10px double blue; */
+/* border: 10px groove grey; */
+/* border: 10px outset grey; */
+/* border: 10px inset grey; */
+/* border: 100px ridge grey; */
+border-color: red;
+
+
+border:20px;
+border-style: dotted double solid dashed;
+    padding: 50px;
+}
