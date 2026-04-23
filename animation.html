@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        .bc{
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            animation: circle 5s ;
+        }
+        @keyframes circle{
+            0%,100%{margin-left: 0px;}
+            50%{margin-left: 500px;}
+        }
+
+
         .ab{
             border: 1px solid red;
             width: 200px;
@@ -58,6 +71,11 @@
     </style>
 </head>
 <body>
+
+    <div class="bc">
+        <div>1</div>
+    </div>
+
     <div class="ab">
         <div class="a1">1</div>
    </div>
